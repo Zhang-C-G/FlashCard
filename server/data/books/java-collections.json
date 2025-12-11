@@ -1,0 +1,51 @@
+{
+  "id": "java-collections",
+  "name": "Java 集合",
+  "description": "Java 集合框架知识",
+  "icon": "📦",
+  "color": "#5382a1",
+  "cards": [
+    {
+      "id": 201,
+      "front": "ArrayList 和 LinkedList 的区别？",
+      "back": "ArrayList：基于数组，查询快O(1)，增删慢O(n)\nLinkedList：基于链表，查询慢O(n)，增删快O(1)",
+      "hint": "数组 vs 链表",
+      "tags": ["List", "集合"]
+    },
+    {
+      "id": 202,
+      "front": "HashMap 的工作原理？",
+      "back": "基于哈希表，通过 key.hashCode() 计算桶位置，冲突时用链表/红黑树存储",
+      "hint": "哈希 + 链表/树",
+      "tags": ["Map", "集合"]
+    },
+    {
+      "id": 203,
+      "front": "HashMap 和 Hashtable 的区别？",
+      "back": "HashMap：非线程安全，允许null键值\nHashtable：线程安全，不允许null",
+      "hint": "线程安全 + null",
+      "tags": ["Map", "集合"]
+    },
+    {
+      "id": 204,
+      "front": "HashSet 如何保证元素唯一？",
+      "back": "通过 hashCode() 和 equals() 方法判断，底层使用 HashMap 实现",
+      "hint": "hashCode + equals",
+      "tags": ["Set", "集合"]
+    },
+    {
+      "id": 205,
+      "front": "List、Set、Map 的区别？",
+      "back": "List：有序，可重复\nSet：无序，不可重复\nMap：键值对，键不可重复",
+      "hint": "有序性 + 重复性",
+      "tags": ["集合", "基础"]
+    },
+    {
+      "id": 206,
+      "front": "ConcurrentHashMap 如何实现线程安全？",
+      "back": "JDK7：分段锁（Segment）\nJDK8：CAS + synchronized（锁单个Node）",
+      "hint": "分段锁 → CAS",
+      "tags": ["Map", "并发"]
+    }
+  ]
+}

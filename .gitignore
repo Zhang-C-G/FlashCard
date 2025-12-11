@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dépendances
+node_modules/
+*/node_modules/
+
+# Fichiers de build
+dist/
+dist-ssr/
+build/
+
+# Variables d'environnement
+.env
+.env.local
+.env.*.local
+*.local
+
+# Fichiers temporaires
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Éditeurs de code
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+*~
+
+# Fichiers de cache
+.cache/
+.parcel-cache/
+.eslintcache
+
+# Fichiers de données (backend) - à garder en local mais pas dans Git
+server/data/*.json
+!server/data/.gitkeep

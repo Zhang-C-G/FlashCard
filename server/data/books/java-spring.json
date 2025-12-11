@@ -1,0 +1,58 @@
+{
+  "id": "java-spring",
+  "name": "Spring Framework",
+  "description": "Spring 框架核心知识",
+  "icon": "🌱",
+  "color": "#6db33f",
+  "cards": [
+    {
+      "id": 301,
+      "front": "什么是 Spring IoC？",
+      "back": "Inversion of Control（控制反转），将对象的创建和依赖注入交给Spring容器管理",
+      "hint": "控制反转",
+      "tags": ["IoC", "核心"]
+    },
+    {
+      "id": 302,
+      "front": "@Autowired 注解的作用？",
+      "back": "自动注入依赖，Spring会自动查找匹配的Bean并注入",
+      "hint": "依赖注入",
+      "tags": ["注解", "DI"]
+    },
+    {
+      "id": 303,
+      "front": "什么是 RESTful API？",
+      "back": "基于HTTP协议的API设计风格：\nGET=查询、POST=创建、PUT=更新、DELETE=删除",
+      "hint": "HTTP动词",
+      "tags": ["REST", "API"]
+    },
+    {
+      "id": 304,
+      "front": "@Controller 和 @RestController 的区别？",
+      "back": "@Controller：返回视图\n@RestController：返回JSON（= @Controller + @ResponseBody）",
+      "hint": "视图 vs JSON",
+      "tags": ["注解", "MVC"]
+    },
+    {
+      "id": 305,
+      "front": "Spring Bean 的作用域有哪些？",
+      "back": "singleton（默认）、prototype、request、session、application",
+      "hint": "5种作用域",
+      "tags": ["Bean", "核心"]
+    },
+    {
+      "id": 306,
+      "front": "什么是 AOP？",
+      "back": "Aspect Oriented Programming（面向切面编程），用于日志、事务、权限等横切关注点",
+      "hint": "切面编程",
+      "tags": ["AOP", "核心"]
+    },
+    {
+      "id": 307,
+      "front": "@Transactional 注解的作用？",
+      "back": "声明式事务管理，方法执行失败自动回滚",
+      "hint": "事务管理",
+      "tags": ["事务", "注解"]
+    }
+  ]
+}
